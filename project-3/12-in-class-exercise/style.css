@@ -1,0 +1,15 @@
+body {
+    background-color: lime;
+}
+
+.img2 {
+    width: 150px;
+    height: 150px;
+    transition: width 1s, height 2s;
+}
+
+.smaller {
+    width: 400px;
+    height: 400px;
+    transition: width 1s, height 2s;
+}
