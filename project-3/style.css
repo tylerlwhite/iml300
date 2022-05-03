@@ -288,6 +288,10 @@ h3 {
     letter-spacing: 2px;
 }
 
+.timeline-img {
+    width: 75%
+}
+
 @media only screen and (min-width: 768px) {
     .timeline:before {
         content: "";
@@ -348,6 +352,7 @@ h3 {
     .timeline ul li:hover::before {
         background-color: #fff;
     }
+    
 }
 
 /*Big Image*/
@@ -357,12 +362,15 @@ h3 {
 
 }
 
-
+/*More Info*/
+.more-info{
+    padding: 10vw;
+}
 /*Call To Action*/
-.cta {
+.call {
     margin: 100px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/banner2.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/anhinga-hero.webp);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
