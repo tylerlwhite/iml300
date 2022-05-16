@@ -1,0 +1,21 @@
+body {
+    background: black;
+    color: white;
+    font-family: "Lucida Console", monospace;
+}
+
+div {
+    margin: 50px;
+    background: darkslategray;
+    border-radius: 5px;
+    padding: 50px;
+}
+
+h2 {
+    color: lightgray;
+    font-size: 20px;
+}
+
+a {
+  color: lightpink;
+}
